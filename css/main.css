@@ -449,7 +449,7 @@ header .form i{
 .video{
     position: relative;
 }
-video{
+.video video{
     width: 100%;
 }
 .video .text{
