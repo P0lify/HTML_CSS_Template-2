@@ -133,6 +133,7 @@ header .container::after {
 }
 header .logo img {
   height: 40px;
+  width: 100%;
 }
 header nav .nav-icone {
   color: white;
@@ -328,6 +329,7 @@ header .form i {
   background-image: url(../images/design-features.webp);
   background-size: cover;
   height: 600px;
+  width: 100%;
   position: relative;
   display: flex;
   align-items: center;
@@ -343,6 +345,8 @@ header .form i {
   justify-content: center;
 }
 .design .image img {
+  height: fit-content;
+  width: fit-content;
   position: relative;
   bottom: -150px;
 }
@@ -408,6 +412,7 @@ header .form i {
 }
 .portfolio .imgs-container .box img {
   max-width: 100%;
+  height: fit-content;
   transition: 0.3s;
 }
 .portfolio .imgs-container .box:hover img {
@@ -490,6 +495,7 @@ header .form i {
   transform: translateX(-50%);
   margin-top: -120px;
   max-width: 100%;
+  height: fit-content;
 }
 @media (max-width: 767px) {
   .about img {
@@ -502,6 +508,8 @@ header .form i {
 .stats {
   background-image: url(../images/stats.webp);
   background-size: cover;
+  width: 100%;
+  height: fit-content;
   padding-top: var(--padding-section);
   padding-bottom: var(--padding-section);
   position: relative;
@@ -678,6 +686,8 @@ header .form i {
 /* quote */
 .quote {
   background-image: url(../images/quote.webp);
+  width: 100%;
+  height: fit-content;
   background-size: cover;
   position: relative;
   padding-top: var(--padding-section);
@@ -803,6 +813,8 @@ header .form i {
 /* Subscribe */
 .subscribe {
   background-image: url(../images/subscribe.webp);
+  width: 100%;
+  height: fit-content;
   background-size: cover;
   position: relative;
   color: white;
@@ -960,6 +972,8 @@ header .form i {
   padding-top: calc(var(--padding-section) / 2);
   padding-bottom: calc(var(--padding-section) / 2);
   background-image: url(../images/subscribe.webp);
+  width: 100%;
+  height: fit-content;
   background-size: cover;
   position: relative;
 }
